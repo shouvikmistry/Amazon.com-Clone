@@ -96,3 +96,23 @@
 
 /* --------------------Languages-------------------- */
 
+.language{
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    width: 20px;
+    height: 15px;
+    margin-right: 2px;
+    background-image: url("/Assets/usa.jpg");
+    background-size: cover;
+}
+.lang{
+    background-color: #13161a;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
