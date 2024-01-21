@@ -7,6 +7,7 @@
     height: 60px;
     background-color: #131921;
     display: flex;
+    justify-content: space-between;
 }
 
 /* ----------LOGO------------ */
@@ -76,7 +77,7 @@
 }
 .searchBar input {
     /* background: #000; */
-    width: 46vw;    
+    width: 35vw;    
     padding: 10px;
 }
 
@@ -115,4 +116,57 @@
     color: white;
     font-weight: bold;
     border: none;
+}
+
+/* ---------------------------Account------------------------ */
+.acount{
+    display: flex;
+    height: 50px;
+    margin-left: 2px;
+    padding: 0 10px 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text3{
+    font-size: 12px;
+    padding-left: 3px;
+}
+.text4{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ------------------Order---------------- */
+.order{
+    display: flex;
+    height: 50px;
+    margin-left: 2px;
+    padding: 0 10px 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ----------------------Cart---------------- */
+
+.cart{
+    display: flex;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 5px;
+    padding: 0 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart_icon i{
+    /* background-color: #ffffff; */
+    /* width: 40px;
+    height: 25px; */
+    font-size: 1.75rem;
 }
