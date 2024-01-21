@@ -170,3 +170,9 @@
     height: 25px; */
     font-size: 1.75rem;
 }
+
+/* -------------------pannel---------------- */
+.pannel{
+    height: 39px;
+    background-color: #232f3e;
+}
