@@ -16,7 +16,7 @@
     height: 50px;
     width: 100px;
     background-color: red;
-    background-image: url("/Assets/AmazonLogo.png");
+    background-image: url("./Assets/AmazonLogo.png");
     background-size: cover;
     background-color: #131921;
 }
