@@ -237,3 +237,35 @@
     text-decoration: none;
     font-size: 0.85rem!important;
 }
+/* ---------------------Content-------------------- */
+.content-section{
+    background-color: #e1fdf8;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    background: rgb(172, 255, 39);
+    width: 23%;
+    height: 420px;
+    /* padding: 25px 0; */
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.content-heading{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.content-img{
+    background-image: url("./Assets/content_img2.jpg");
+    height: 350px;
+    width: 270px;
+    background-size:cover;
+    display: flex;
+    margin: 10px 0;
+}
+.content-bottom-text{
+    padding-top: 8px;
+}
