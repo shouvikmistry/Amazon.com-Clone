@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
     width: 100%;
@@ -205,4 +206,34 @@
 
 .text5{
     font-size: 14px;
+}
+
+/* ---------------Hero-------------- */
+.hero_section{
+    background: #000;
+    height: 350px;
+    width: 100%;
+    background-image: url("./Assets/hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero_msg{
+    width: 95%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.hero_msg p{
+    color: #0F1111!important;
+    font-size: 0.95rem!important;
+}
+.hero_msg a{
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.85rem!important;
 }
