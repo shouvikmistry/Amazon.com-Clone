@@ -107,7 +107,7 @@
     width: 20px;
     height: 15px;
     margin-right: 2px;
-    background-image: url("/Assets/usa.jpg");
+    background-image: url("./Assets/usa.jpg");
     background-size: cover;
 }
 .lang{
