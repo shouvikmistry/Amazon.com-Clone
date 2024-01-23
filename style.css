@@ -7,7 +7,7 @@
     height: 60px;
     background-color: #131921;
     display: flex;
-    justify-content: space-between;
+    justify-content:stretch;
 }
 
 /* ----------LOGO------------ */
@@ -68,8 +68,7 @@
     color: #5b697a;
     width: 50px;
     height: 40px;
-    display: flex;
-    padding: 5px;
+    padding: 1px;
 }
 .searchBar select:hover {
     color: #13161a;
@@ -77,7 +76,7 @@
 }
 .searchBar input {
     /* background: #000; */
-    width: 35vw;    
+    width: 45vw;    
     padding: 10px;
 }
 
@@ -175,4 +174,35 @@
 .pannel{
     height: 39px;
     background-color: #232f3e;
+    display: flex;
+}
+.border2{
+    border: 1px solid transparent;
+}
+.border2:hover{
+    border: 1px solid white;
+}
+.menu{
+    margin-left: 10px;
+    height: 39px;
+    width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu_icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.menu_items{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.text5{
+    font-size: 14px;
 }
